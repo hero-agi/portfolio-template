@@ -1,0 +1,174 @@
+{
+  "profile": {
+    "name": "Angelo Castillo",
+    "title": "Project Consultant | Data & Analytics | AI & Machine Learning",
+    "photo": "assets/img/profile-img.jpg",
+    "description": "Diseño y lidero el desarrollo de soluciones tecnológicas basadas en Inteligencia Artificial que transforman cómo las empresas toman decisiones y ejecutan sus proyectos.",
+    "badges": ["Power BI", "AI Agents", "Python", "MS Fabric"],
+    "stats": {
+      "years": 5,
+      "projects": 16,
+      "companies": 4,
+      "tools": 10
+    },
+    "availableText": "Disponible para proyectos"
+  },
+  "clients": [
+    { "name": "Aunor", "logo": "assets/img/clients/aunor.png" },
+    { "name": "Dígito", "logo": "assets/img/clients/digito.png" },
+    { "name": "Enapu", "logo": "assets/img/clients/enapu.png" },
+    { "name": "Yamaha", "logo": "assets/img/clients/Yamaha.jpg" },
+    { "name": "Mitsui", "logo": "assets/img/clients/mitsui.png" },
+    { "name": "Gruporocio", "logo": "assets/img/clients/gruporocio.png" },
+    { "name": "Dblearner", "logo": "assets/img/clients/dblearner.jpg" },
+    { "name": "Adium", "logo": "assets/img/clients/adium.png" }
+  ],
+  "experience": [
+    {
+      "company": "Grupo Rocío",
+      "companyKey": "gruporocio",
+      "logo": "assets/img/clients/gruporocio.png",
+      "badge": "Grupo empresarial agro-industrial",
+      "period": "2021 — 2022",
+      "location": "La Libertad, Perú",
+      "roles": [
+        {
+          "title": "Auxiliar de Procesos",
+          "period": "Abr 2021 — Sep 2021",
+          "description": "Apoyo en la gestión de procesos operativos y administrativos. Primeros pasos en análisis de datos y eficiencia de procesos dentro del área de producción.",
+          "skills": ["Eficiencia de procesos", "Análisis de información"]
+        },
+        {
+          "title": "Asistente de Producción",
+          "period": "Sep 2021 — Abr 2022",
+          "description": "Gestión de proyectos de mejora continua junto al equipo administrativo. Fortalecimiento de habilidades en Macros VBA, Business Intelligence y análisis de datos operativos.",
+          "skills": ["Macros VBA", "Business Intelligence", "Excel", "Mejora continua"]
+        }
+      ],
+      "links": []
+    },
+    {
+      "company": "Dígito",
+      "companyKey": "digito",
+      "logo": "assets/img/clients/digito.png",
+      "badge": "Empresa de tecnología",
+      "period": "2023 — Presente",
+      "location": "Lima, Perú",
+      "isCurrent": true,
+      "roles": [
+        {
+          "title": "Analista de BI",
+          "period": "2023",
+          "description": "Diseño e implementación de dashboards ejecutivos con Power BI. Construcción de modelos de datos y automatización de reportes para clientes corporativos como AUNOR y ASTARA.",
+          "skills": ["Power BI", "DAX", "SQL", "ETL"]
+        },
+        {
+          "title": "Analista de Datos",
+          "period": "2023 — 2024",
+          "description": "Análisis avanzado con Python y Tableau. ETL y modelado de datos para múltiples clientes. Implementación de KPIs estratégicos a nivel gerencial y visualizaciones de alto impacto.",
+          "skills": ["Python", "Tableau", "Pandas", "Excel"]
+        },
+        {
+          "title": "Analista de Proyectos de TI",
+          "period": "2024 — 2025",
+          "description": "Liderazgo de proyectos de transformación digital. Integración de arquitecturas de datos en Azure Data Factory. Desarrollo de intranets corporativas (ENAPU) y portales web para clientes enterprise.",
+          "skills": ["Azure", "SharePoint", "Gestión de proyectos", "n8n"]
+        },
+        {
+          "title": "Líder de Proyectos",
+          "period": "2025 — Presente",
+          "isCurrent": true,
+          "description": "Consultoría estratégica en Data & Analytics, IA y automatización de procesos. Liderazgo de equipos multidisciplinarios y entrega de soluciones end-to-end para clientes como Yamaha Motors Perú.",
+          "skills": ["Consultoría", "IA Generativa", "Make", "LLMs", "Liderazgo"]
+        }
+      ],
+      "impacts": [
+        { "icon": "bi-buildings-fill", "text": "4 empresas top atendidas" },
+        { "icon": "bi-graph-up-arrow", "text": "+16 proyectos entregados" },
+        { "icon": "bi-people-fill", "text": "Equipos de hasta 5 personas liderados" }
+      ],
+      "links": [
+        { "icon": "bi-linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/castilloperz/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-aunor",
+      "title": "Dashboard Corporativo AUNOR",
+      "category": "powerbi",
+      "image": "assets/img/portfolio/portfolio-16.gif",
+      "badge": "Power BI",
+      "problem": "KPIs de 8 departamentos dispersos en múltiples sistemas, sin visibilidad unificada",
+      "solution": "Dashboard ejecutivo centralizado con Power BI + ETL automatizado",
+      "result": "60% reducción en tiempo de generación de reportes",
+      "tags": ["Power BI", "DAX", "SQL", "ETL"],
+      "githubUrl": "https://github.com/AngeloCastilloPerez/Project---Aunor/tree/main",
+      "demoUrl": null
+    },
+    {
+      "id": "proj-astara",
+      "title": "Dashboard Corporativo ASTARA",
+      "category": "powerbi",
+      "image": "assets/img/portfolio/portfolio-17.gif",
+      "badge": "Power BI",
+      "problem": "Datos de ventas y logística fragmentados sin capacidad de análisis en tiempo real",
+      "solution": "Dashboard integrado Power BI con modelo semántico unificado y actualización automática",
+      "result": "Reducción de 3 días a 2 horas en ciclo de reporte mensual",
+      "tags": ["Power BI", "DAX", "Power Query", "SQL"],
+      "githubUrl": "https://github.com/AngeloCastilloPerez/Proyecto-Astara/tree/main",
+      "demoUrl": null
+    },
+    {
+      "id": "proj-yamaha",
+      "title": "Sistema de Gestión Yamaha",
+      "category": "app",
+      "image": "assets/img/portfolio/portfolio-18.gif",
+      "badge": "App",
+      "problem": "Procesos manuales de tracking de ventas y servicio técnico sin trazabilidad",
+      "solution": "Sistema web de gestión con automatización de flujos via n8n y reportería integrada",
+      "result": "80% reducción en tiempo de procesamiento de órdenes de servicio",
+      "tags": ["n8n", "Python", "Power BI", "Automatización"],
+      "githubUrl": null,
+      "demoUrl": null
+    },
+    {
+      "id": "proj-enapu",
+      "title": "Intranet Corporativa ENAPU",
+      "category": "web",
+      "image": "assets/img/portfolio/portfolio-19.gif",
+      "badge": "Web",
+      "problem": "Comunicación interna fragmentada y procesos documentales sin digitalizar",
+      "solution": "Portal intranet en SharePoint con workflows automatizados y gestión documental",
+      "result": "Digitalización de 100% de procesos documentales críticos",
+      "tags": ["SharePoint", "Azure", "Power Automate", "Microsoft 365"],
+      "githubUrl": null,
+      "demoUrl": null
+    },
+    {
+      "id": "proj-tableau",
+      "title": "Analytics Dashboard Mitsui",
+      "category": "tableau",
+      "image": "assets/img/portfolio/portfolio-20.gif",
+      "badge": "Tableau",
+      "problem": "Análisis de KPIs comerciales sin capacidad de drill-down o segmentación dinámica",
+      "solution": "Dashboard Tableau con múltiples vistas, filtros avanzados y conexión directa a base de datos",
+      "result": "Adopción del 90% por el equipo gerencial para decisiones estratégicas",
+      "tags": ["Tableau", "SQL", "Python", "ETL"],
+      "githubUrl": null,
+      "demoUrl": null
+    }
+  ],
+  "contact": {
+    "email": "angelocastilloperz@outlook.es",
+    "linkedin": "https://www.linkedin.com/in/castilloperz/",
+    "github": "https://github.com/AngeloCastilloPerez",
+    "twitter": "https://twitter.com/AngeloCastilloJ",
+    "medium": "angelocastilloperz"
+  },
+  "meta": {
+    "siteTitle": "Angelo Castillo | Portfolio",
+    "description": "Project Consultant especializado en Data Analytics, Business Intelligence, Power BI y IA",
+    "language": "es"
+  }
+}
