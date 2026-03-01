@@ -2,7 +2,7 @@
   "profile": {
     "name": "Angelo Castillo",
     "title": "Project Consultant | Data & Analytics | AI & Machine Learning",
-    "photo": "assets/img/profile-img.jpg",
+    "photo": "assets/img/profile-img.png",
     "description": "Diseño y lidero el desarrollo de soluciones tecnológicas basadas en Inteligencia Artificial que transforman cómo las empresas toman decisiones y ejecutan sus proyectos.",
     "badges": ["Power BI", "AI Agents", "Python", "MS Fabric"],
     "stats": {
@@ -136,7 +136,7 @@
       "id": "proj-enapu",
       "title": "Intranet Corporativa ENAPU",
       "category": "web",
-      "image": "assets/img/portfolio/portfolio-19.gif",
+      "image": "assets/img/portfolio/portfolio-15.gif",
       "badge": "Web",
       "problem": "Comunicación interna fragmentada y procesos documentales sin digitalizar",
       "solution": "Portal intranet en SharePoint con workflows automatizados y gestión documental",
@@ -149,7 +149,7 @@
       "id": "proj-tableau",
       "title": "Analytics Dashboard Mitsui",
       "category": "tableau",
-      "image": "assets/img/portfolio/portfolio-20.gif",
+      "image": "assets/img/portfolio/portfolio-14.gif",
       "badge": "Tableau",
       "problem": "Análisis de KPIs comerciales sin capacidad de drill-down o segmentación dinámica",
       "solution": "Dashboard Tableau con múltiples vistas, filtros avanzados y conexión directa a base de datos",
