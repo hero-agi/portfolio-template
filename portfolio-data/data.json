@@ -289,6 +289,19 @@
       "demoUrl": null
     },
     {
+      "id": "proj-sanmartin",
+      "title": "BI & Data Engineering — San Martín Contratistas",
+      "category": "architecture",
+      "image": "assets/img/portfolio/portfolio-sanmartin.gif",
+      "badge": "Architecture",
+      "problem": "Operaciones mineras gestionadas con Excel manual sin integración con SAP ni visibilidad de KPIs de flota, costos y producción en tiempo real.",
+      "solution": "Arquitectura Medallion en Microsoft Fabric (Lakehouse) con integración directa a SAP vía SOAP Web Services, transformaciones PySpark y modelo semántico Power BI con DAX.",
+      "result": "Pipeline automatizado end-to-end: SAP + SharePoint → Landing → Work → Work Live (Delta Tables) con DirectQuery para reportes operativos de minería.",
+      "tags": ["Microsoft Fabric", "SAP", "PySpark", "Power BI"],
+      "githubUrl": "https://github.com/AngeloCastilloPerez/Project-SanMartin",
+      "demoUrl": null
+    },
+    {
       "id": "proj-mattiu",
       "title": "MATTIU — Plataforma de Agentes IA",
       "category": "app",
