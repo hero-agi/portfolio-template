@@ -1252,10 +1252,15 @@
       if (typeof GLightbox !== 'undefined') {
         GLightbox({ selector: '.portfolio-lightbox' });
       }
-      // Re-init Isotope
-      window.addEventListener('load', () => {
+      // Re-init Isotope (load event already fired, use setTimeout)
+      setTimeout(() => {
         if (typeof Isotope !== 'undefined') {
           const iso = new Isotope(grid, { itemSelector: '.portfolio-item', layoutMode: 'fitRows' });
+          // Remove old listeners by cloning filter buttons
+          document.querySelectorAll('.filter-btn').forEach(btn => {
+            const newBtn = btn.cloneNode(true);
+            btn.parentNode.replaceChild(newBtn, btn);
+          });
           document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function () {
               document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -1264,7 +1269,7 @@
             });
           });
         }
-      });
+      }, 300);
     }
 
     function applyPortfolioData(data) {
