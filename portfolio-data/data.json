@@ -289,6 +289,19 @@
       "demoUrl": null
     },
     {
+      "id": "proj-minsur",
+      "title": "Minsur ETL — Jenkins → Azure",
+      "category": "architecture",
+      "image": "assets/img/portfolio/portfolio-minsur.gif",
+      "badge": "Architecture",
+      "problem": "Pipeline ETL financiero on-premise en Jenkins sin escalabilidad ni gobernanza de datos en la nube.",
+      "solution": "Migración a Azure con ADF, Databricks PySpark y ADLS Gen2 en arquitectura Medallion para 4 dominios financieros.",
+      "result": "ETL automatizado SAP + SharePoint → Landing → Staging → Curated con consumo directo en Power BI.",
+      "tags": ["Azure Data Factory", "Databricks", "PySpark", "Power BI"],
+      "githubUrl": "https://github.com/AngeloCastilloPerez/Project-Minsur",
+      "demoUrl": null
+    },
+    {
       "id": "proj-sanmartin",
       "title": "BI & Data Engineering — San Martín Contratistas",
       "category": "architecture",
