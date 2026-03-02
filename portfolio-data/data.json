@@ -199,13 +199,13 @@
     },
     {
       "id": "proj-yugioh",
-      "title": "Análisis Trading Cards Yu-Gi-Oh",
+      "title": "Dashboard de Catálogo Yu-Gi-Oh! (Personal)",
       "category": "powerbi",
       "image": "assets/img/portfolio/portfolio-6.gif",
       "badge": "Power BI",
-      "problem": "Mercado de cartas sin análisis de precios ni demanda por rareza",
-      "solution": "Dashboard de análisis de mercado con 10,000+ cartas catalogadas",
-      "result": "85% de precisión en predicción de tendencias de precio",
+      "problem": "La información está dispersa y cuesta explorar cartas por características.",
+      "solution": "Pipeline ligero en Python para recolectar y estandarizar datos + modelo en Power BI para análisis exploratorio.",
+      "result": "Vista interactiva para segmentar y buscar cartas por múltiples dimensiones.",
       "tags": ["Power BI", "Python", "Web Scraping"],
       "githubUrl": "https://github.com/AngeloCastilloPerez/Project-YuGiHo",
       "demoUrl": null
