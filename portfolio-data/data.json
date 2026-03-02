@@ -289,6 +289,19 @@
       "demoUrl": null
     },
     {
+      "id": "proj-mattiu",
+      "title": "MATTIU — Plataforma de Agentes IA",
+      "category": "app",
+      "image": "assets/img/portfolio/portfolio-mattiu.gif",
+      "badge": "App",
+      "problem": "Equipos sin acceso a agentes de IA especializados ni automatización de procesos integrada en una sola plataforma.",
+      "solution": "Plataforma SaaS multi-agente con módulos de productividad, BI, PDF extraction, Kanban y Portfolio SaaS desplegados en Railway + Vercel.",
+      "result": "Sistema end-to-end operativo con auth JWT, base de datos PostgreSQL y agentes IA conectados a Claude y OpenAI.",
+      "tags": ["FastAPI", "React", "Claude AI", "PostgreSQL"],
+      "githubUrl": null,
+      "demoUrl": null
+    },
+    {
       "id": "proj-co2-portal",
       "title": "Portal Web Emisiones CO2",
       "category": "web",
