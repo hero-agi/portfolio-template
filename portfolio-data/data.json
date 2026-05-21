@@ -1,17 +1,17 @@
 {
   "profile": {
     "name": "Angelo Castillo",
-    "title": "Project Consultant | Data & Analytics | AI & Machine Learning",
+    "title": "Fundador & CEO de HERO · Agentes de IA y Automatización",
     "photo": "assets/img/profile-img.png",
-    "description": "Diseño y lidero el desarrollo de soluciones tecnológicas basadas en Inteligencia Artificial que transforman cómo las empresas toman decisiones y ejecutan sus proyectos.",
-    "badges": ["Power BI", "AI Agents", "Python", "MS Fabric"],
+    "description": "Lidero <strong>HERO</strong>, donde diseñamos e implementamos agentes de IA, automatizaciones y plataformas inteligentes para empresas. Detrás: 5+ años transformando datos en decisiones de negocio.",
+    "badges": ["Power BI", "AI Agents", "AI / ML", "Python", "Automatización"],
     "stats": {
       "years": 5,
-      "projects": 16,
-      "companies": 4,
+      "projects": 18,
+      "companies": 6,
       "tools": 10
     },
-    "availableText": "Disponible para proyectos"
+    "availableText": "CEO @ HERO AGI"
   },
   "clients": [
     { "name": "Aunor", "logo": "assets/img/clients/aunor.png" },
@@ -349,8 +349,8 @@
     "medium": "angelocastilloperz"
   },
   "meta": {
-    "siteTitle": "Angelo Castillo | Portfolio",
-    "description": "Project Consultant especializado en Data Analytics, Business Intelligence, Power BI y IA",
+    "siteTitle": "Angelo Castillo — CEO & Fundador de HERO",
+    "description": "CEO y Fundador de HERO. Lidero el desarrollo de agentes de IA, automatizaciones y plataformas inteligentes para empresas, sobre una base de 5+ años en Data Analytics y Business Intelligence.",
     "language": "es"
   }
 }
